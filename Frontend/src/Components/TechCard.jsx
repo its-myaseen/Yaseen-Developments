@@ -28,7 +28,7 @@ const TechCard = (props) => {
           <p className='block text-[12px] text-gray-400'>{props.data.about}</p>
         </div>
       </div>
-      <button className='block absolute bottom-4 left-3 h-8 w-[93%] text-gray-200 text-sm rounded-md bg-[#f0f8ff17] hover:bg-[#f0f8ff36] active:bg-[#f0f8ff36] cursor-pointer'>What is {props.data.tech}?</button>
+      {/* <button className='block absolute bottom-4 left-3 h-8 w-[93%] text-gray-200 text-sm rounded-md bg-[#f0f8ff17] hover:bg-[#f0f8ff36] active:bg-[#f0f8ff36] cursor-pointer'>What is {props.data.tech}?</button> */}
     </div>
   )
 }
